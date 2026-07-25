@@ -22,9 +22,12 @@ connectCloudinary();
 app.use(express.json());
 app.use(
   cors({
-    origin: ["http://localhost:5173", "https://resturant-app-peach.vercel.app"],
+    origin: [
+      "http://localhost:5173",
+      "https://saffron-restaurant-lemon.vercel.app",
+    ],
     credentials: true,
-  })
+  }),
 );
 app.use(cookieParser());
 // API responses carry per-user data and must never be cached by the browser
