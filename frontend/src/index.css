@@ -1,0 +1,15 @@
+/* Poppins is bundled via `@fontsource/poppins` (imported in main.jsx) so every
+   page uses the same font/weights with no dependency on a CDN request. */
+@import "tailwindcss";
+
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+/* consistent font-weight rendering across pages, zoom levels and OSes —
+   without this, bold text can look heavier or lighter depending on context */
+html {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}

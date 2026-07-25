@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40">
+  <defs>
+    <linearGradient id="saffron" gradientUnits="userSpaceOnUse" x1="4" y1="2" x2="36" y2="38">
+      <stop offset="0%" stop-color="#FBBF24" />
+      <stop offset="100%" stop-color="#F59E0B" />
+    </linearGradient>
+  </defs>
+  <rect width="40" height="40" rx="11" fill="url(#saffron)" />
+  <g fill="none" stroke="#fff" stroke-width="1.9" stroke-linecap="round" opacity="0.9">
+    <path d="M16.4 13c-1.5-1.3-1.5-2.9 0-4.2s1.5-2.9 0-4.2" />
+    <path d="M23.6 13c-1.5-1.3-1.5-2.9 0-4.2s1.5-2.9 0-4.2" />
+  </g>
+  <g fill="#fff">
+    <circle cx="16" cy="18" r="1.5" />
+    <circle cx="24" cy="18" r="1.5" />
+  </g>
+  <path d="M12 23.8h16a8 8 0 0 1-16 0Z" fill="none" stroke="#fff" stroke-width="2.2" stroke-linejoin="round" />
+  <path d="M9.8 22.8h20.4" stroke="#fff" stroke-width="2.6" stroke-linecap="round" />
+</svg>
