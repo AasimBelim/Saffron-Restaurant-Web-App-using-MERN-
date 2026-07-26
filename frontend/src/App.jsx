@@ -14,7 +14,7 @@ import Navbar from "./components/Navbar";
 import { Toaster } from "react-hot-toast";
 import Footer from "./components/Footer";
 import AdminLayout from "./pages/admin/AdminLayout";
-import { useContext } from "react";
+import { useContext, useEffect } from "react";
 import { AppContext } from "./context/AppContext";
 import AddCategory from "./pages/admin/AddCategory";
 import AddMenu from "./pages/admin/AddMenu";
@@ -23,11 +23,21 @@ import Menus from "./pages/admin/Menus";
 import Orders from "./pages/admin/Orders";
 import Bookings from "./pages/admin/Bookings";
 import Dashboard from "./pages/admin/Dashboard";
+
+const ScrollToTop = () => {
+  const { pathname } = useLocation();
+  useEffect(() => {
+    window.scrollTo({ top: 0, left: 0, behavior: "instant" });
+  }, [pathname]);
+  return null;
+};
+
 const App = () => {
   const adminPath = useLocation().pathname.includes("admin");
   const { admin } = useContext(AppContext);
   return (
     <div>
+      <ScrollToTop />
       <Toaster />
       {!adminPath && <Navbar />}
       <Routes>

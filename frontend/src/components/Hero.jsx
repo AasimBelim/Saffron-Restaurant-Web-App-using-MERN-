@@ -75,10 +75,10 @@ const Hero = () => {
           {stats.map((stat) => (
             <div
               key={stat.label}
-              className="flex items-center justify-center gap-3 sm:flex-col sm:gap-1.5"
+              className="flex flex-col items-center justify-center gap-2 text-center sm:gap-1.5"
             >
               <stat.icon className="h-5 w-5 text-yellow-400" />
-              <div className="text-left sm:text-center">
+              <div className="max-w-[14rem]">
                 <p className="text-lg font-bold text-white">{stat.value}</p>
                 <p className="text-xs text-gray-300">{stat.label}</p>
               </div>

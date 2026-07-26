@@ -4,7 +4,7 @@ export default function Testimonial() {
       <div className="text-sm w-80 border border-gray-200 pb-6 rounded-lg bg-white shadow-[0px_4px_15px_0px] shadow-black/5">
         <div className="flex flex-col items-center px-5 py-4 relative">
           <img
-            className="h-24 w-24 absolute -top-14 rounded-full"
+            className="h-24 w-24 absolute -top-11 sm:-top-14 rounded-full"
             src="https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=200"
             alt="userImage1"
           />
@@ -88,7 +88,7 @@ export default function Testimonial() {
       <div className="text-sm w-80 border border-gray-200 pb-6 rounded-lg bg-white shadow-[0px_4px_15px_0px] shadow-black/5">
         <div className="flex flex-col items-center px-5 py-4 relative">
           <img
-            className="h-24 w-24 absolute -top-14 rounded-full"
+            className="h-24 w-24 absolute -top-11 sm:-top-14 rounded-full"
             src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?q=80&w=200"
             alt="userImage2"
           />
@@ -172,7 +172,7 @@ export default function Testimonial() {
       <div className="text-sm w-80 border border-gray-200 pb-6 rounded-lg bg-white shadow-[0px_4px_15px_0px] shadow-black/5">
         <div className="flex flex-col items-center px-5 py-4 relative">
           <img
-            className="h-24 w-24 absolute -top-14 rounded-full"
+            className="h-24 w-24 absolute -top-11 sm:-top-14 rounded-full"
             src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?q=80&w=200&h=200&auto=format&fit=crop"
             alt="userImage3"
           />
